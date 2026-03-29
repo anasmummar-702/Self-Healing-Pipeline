@@ -7,7 +7,6 @@ from langchain_groq import ChatGroq
 
 # Setup Groq API Key
 os.environ["GROQ_API_KEY"] = "your_groq_api_key_here"
-
 # Find the absolute path to the local_model folder
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "local_model")
